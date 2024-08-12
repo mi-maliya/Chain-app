@@ -1,0 +1,17 @@
+{
+  "name": "chain-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch --no-source-map scss:css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "bi": "^0.0.1",
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.8"
+  }
+}

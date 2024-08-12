@@ -1,0 +1,58 @@
+$font-family-sans-serif: "Roboto", sans-serif;
+
+// Colors
+$primary: #4b8ef1;
+$secondary: #afafaf;
+
+//Buttons
+
+// Padding
+$button-padding-x: 30px;
+$button-padding-y: 10px;
+$btn-padding-x: $button-padding-x;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-x-lg: $button-padding-x;
+$btn-padding-y: $button-padding-y;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-y-lg: $button-padding-y;
+// Button Radius
+$button-radius: 50px;
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+
+// Navbar
+
+// Nav links
+$navbar-nav-link-padding-x: 1.2rem;
+// Navbar
+$navbar-padding-y: 1rem;
+// Nav links Hover color
+$navbar-light-hover-color: var(--bs-primary);
+// Navbar Toggler Border Radius
+$navbar-toggler-border-radius: 5px;
+
+// Headings
+
+// Font weight
+$headings-font-weight: bold;
+
+// Spacers
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 5,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+.hello {
+  color: #333;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
